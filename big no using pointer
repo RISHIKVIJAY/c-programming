@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+ int a,b,*p=&a,*q=&b;   
+ 
+   printf(" enter the first number : ");
+   scanf("%d", p);
+   printf(" enter the second  number : ");
+   scanf("%d", q); 
+
+
+ if(*p > *q)
+ {
+  printf("\n\n %d is the maximum number.\n\n",*p);
+ }
+ else
+ {
+  printf("\n\n %d is the maximum number.\n\n",*q);
+ }
+
+}
